@@ -71,3 +71,41 @@ footer {
         padding: 0.5rem 0;
     }
 }
+
+
+/* Resume page specific styles */
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    background-color: #0B0C10; /* Dark background for headers */
+    color: #66FCF1; /* Teal accent color */
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#resume-download button {
+    background-color: #66FCF1; /* Teal accent color */
+    color: #0B0C10; /* Dark text for button */
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#resume-download button:hover {
+    background-color: #45A29E; /* Darker teal on hover */
+}
+
+#resume-image {
+    width: 100%;
+    max-width: 600px; /* Adjust as necessary */
+    display: block;
+    margin: 1rem auto;
+}
