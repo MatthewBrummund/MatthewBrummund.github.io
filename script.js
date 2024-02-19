@@ -5,3 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = 'resume.pdf';
     });
 });
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    document.body.classList.add('fade-in');
+});
