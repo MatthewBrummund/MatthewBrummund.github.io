@@ -114,7 +114,7 @@ h2 {
 /* Add this at the bottom of your styles.css file */
 .fade-in {
     opacity: 0;
-    transition: opacity 0.5s ease-in;
+    transition: opacity 5.0s ease-in;
 }
 
 /* This ensures that the body starts transparent and fades in to full opacity */
@@ -126,4 +126,25 @@ body {
 body.fade-in {
     display: block;
     opacity: 1;
+}
+
+.name-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.background-image {
+    position: absolute;
+    width: 100%; /* Or any other size */
+    height: auto; /* Maintain aspect ratio */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Align the center of the image to the container center */
+    z-index: -1; /* Ensure it's behind the text */
+}
+
+.name-container h1 {
+    position: relative;
+    z-index: 1; /* Ensure the text is above the background image */
 }
