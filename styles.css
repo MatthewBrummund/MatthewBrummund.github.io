@@ -51,15 +51,14 @@ nav a:hover {
     color: #C5C6C7; /* Light grey text color */
 }
 
+
 footer {
     background: #333; /* Matching the header */
     color: #C5C6C7; /* Light grey text color */
     text-align: center;
     padding: 1rem 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
+
 
 /* Add responsiveness */
 @media (max-width: 768px) {
@@ -104,8 +103,10 @@ h2 {
 }
 
 #resume-image {
-    width: 100%;
-    max-width: 600px; /* Adjust as necessary */
+    width: 100%; /* Ensures the image is never larger than its container */
+    max-width: 800px; /* Adjust this value as needed to fit your design */
+    height: auto; /* Maintains aspect ratio */
     display: block;
-    margin: 1rem auto;
+    margin: 1rem auto; /* Centers the image and adds space around it */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for some depth */
 }
