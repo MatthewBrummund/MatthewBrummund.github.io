@@ -1,5 +1,5 @@
 /* Reset some basic elements */
-body, h1, p, ul, li, a {
+body, h1, p, ul, li, a, p2  {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -35,30 +35,6 @@ nav a:hover {
     color: #0B0C10; /* Dark color for hover effect */
     background-color: #45A29E; /* Teal background on hover */
 }
-
-.intro {
-    text-align: center;
-    padding: 5rem 0;
-}
-
-.intro h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.intro p {
-    font-size: 1.2rem;
-    color: #C5C6C7; /* Light grey text color */
-}
-
-
-footer {
-    background: #333; /* Matching the header */
-    color: #C5C6C7; /* Light grey text color */
-    text-align: center;
-    padding: 1rem 0;
-}
-
 
 /* Add responsiveness */
 @media (max-width: 768px) {
@@ -104,47 +80,16 @@ h2 {
 
 #resume-image {
     width: 100%; /* Ensures the image is never larger than its container */
-    max-width: 800px; /* Adjust this value as needed to fit your design */
+    max-width: 800px;
     height: auto; /* Maintains aspect ratio */
     display: block;
     margin: 1rem auto; /* Centers the image and adds space around it */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for some depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Add this at the bottom of your styles.css file */
-.fade-in {
-    opacity: 0;
-    transition: opacity 5.0s ease-in;
-}
-
-/* This ensures that the body starts transparent and fades in to full opacity */
-body {
-    display: none;
-}
-
-/* When the page is fully loaded, .fade-in class will be added to the body */
-body.fade-in {
-    display: block;
-    opacity: 1;
-}
-
-.name-container {
-    position: relative;
+footer {
+    background: #333; /* Matching the header */
+    color: #C5C6C7; /* Light grey text color */
     text-align: center;
-    color: white;
-}
-
-.background-image {
-    position: absolute;
-    width: 100%; /* Or any other size */
-    height: auto; /* Maintain aspect ratio */
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Align the center of the image to the container center */
-    z-index: -1; /* Ensure it's behind the text */
-}
-
-.name-container h1 {
-    position: relative;
-    z-index: 1; /* Ensure the text is above the background image */
+    padding: 1rem 0;
 }
