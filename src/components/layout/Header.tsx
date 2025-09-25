@@ -7,6 +7,7 @@ import { Menu, X } from 'lucide-react'
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from '@/components/ui/sheet'
 import { Button } from '@/components/ui/button'
 
+
 // Navigation items configuration
 const navigationItems = [
   { name: 'Home', href: '/' },

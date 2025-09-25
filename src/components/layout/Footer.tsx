@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { ExternalLink, Mail, Github, Linkedin, ArrowUp } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
+
 // Quick navigation items (subset of main navigation)
 const quickNavItems = [
   { name: 'Home', href: '/' },
