@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useMemo } from 'react'
-import { Search, Filter, ChevronDown, ChevronUp, ExternalLink, Calendar, Clock, Tag } from 'lucide-react'
+import { Search, Filter, ChevronDown, ChevronUp, Calendar, Clock, Tag } from 'lucide-react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
@@ -356,7 +356,7 @@ export default function BlogsPage() {
                 <CardContent className="pt-6">
                   <h3 className="text-lg font-semibold text-sky-900 mb-3">More Content Coming Soon</h3>
                   <p className="text-slate-600 leading-relaxed">
-                    I'm actively working on additional blog posts covering cloud architecture patterns, 
+                    I&rsquo;m actively working on additional blog posts covering cloud architecture patterns, 
                     AI/ML implementation strategies, and detailed technical insights from enterprise projects. 
                     Check back soon for more in-depth content!
                   </p>

@@ -1,7 +1,6 @@
 "use client"
 
-import Link from 'next/link'
-import { Download, Phone, Mail, MapPin, ExternalLink, Calendar, GraduationCap } from 'lucide-react'
+import { Download, Phone, Mail, MapPin, ExternalLink } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
@@ -224,7 +223,7 @@ export default function ResumePage() {
                   </li>
                   <li className="flex items-start space-x-2">
                     <div className="w-2 h-2 bg-sky-500 rounded-full mt-2 flex-shrink-0"></div>
-                    <span>Leveraged AWS cloud services to build full-stack applications with: IAC (Infrastructure as code), backend development focused on API's, and frontend deployments build with React, NextJs, Angular, and Streamlit</span>
+                    <span>Leveraged AWS cloud services to build full-stack applications with: IAC (Infrastructure as code), backend development focused on API&rsquo;s, and frontend deployments build with React, NextJs, Angular, and Streamlit</span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <div className="w-2 h-2 bg-sky-500 rounded-full mt-2 flex-shrink-0"></div>
@@ -294,7 +293,7 @@ export default function ResumePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-slate-600">
-                  Panelist for "AIM107: Building Positive Futures: The Adoption of Generative AI from Student and Higher Education Perspectives" alongside ASU leadership and AWS professionals
+                  Panelist for &ldquo;AIM107: Building Positive Futures: The Adoption of Generative AI from Student and Higher Education Perspectives&ldquo; alongside ASU leadership and AWS professionals
                 </p>
               </CardContent>
             </Card>

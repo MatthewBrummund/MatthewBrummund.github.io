@@ -149,7 +149,7 @@ export default function ContactPage() {
           </h1>
           <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed mb-8">
             Interested in discussing cloud architecture projects, AI integration opportunities, 
-            or work positions? I'd love to hear from you.
+            or work positions? I&rsquo;d love to hear from you.
           </p>
           <div className="flex items-center justify-center gap-6 text-sm text-slate-500">
             <div className="flex items-center gap-2">
@@ -252,7 +252,7 @@ export default function ContactPage() {
               <CardHeader>
                 <CardTitle className="text-sky-900">Areas of Interest</CardTitle>
                 <CardDescription>
-                  Types of projects and opportunities I'm most excited about:
+                  Types of projects and opportunities I&rsquo;m most excited about:
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -272,7 +272,7 @@ export default function ContactPage() {
             <div>
               <h2 className="text-2xl font-bold text-sky-900 mb-4">Send a Message</h2>
               <p className="text-slate-600">
-                Prefer to reach out directly? Use the form below and I'll get back to you soon.
+                Prefer to reach out directly? Use the form below and I&rsquo;ll get back to you soon.
               </p>
             </div>
 
@@ -283,7 +283,7 @@ export default function ContactPage() {
                     <CheckCircle className="h-16 w-16 text-emerald-500 mx-auto" />
                     <h3 className="text-lg font-semibold text-emerald-800">Message Sent Successfully!</h3>
                     <p className="text-slate-600">
-                      Thank you for reaching out. I'll respond to your message within 24 hours.
+                      Thank you for reaching out. I&rsquo;ll respond to your message within 24 hours.
                     </p>
                   </div>
                 ) : (
@@ -427,8 +427,8 @@ export default function ContactPage() {
               <div className="text-center space-y-4">
                 <h3 className="text-lg font-semibold text-sky-900">Ready to Collaborate?</h3>
                 <p className="text-slate-600 max-w-2xl mx-auto leading-relaxed">
-                  Whether you're looking for cloud architecture expertise, AI integration solutions, 
-                  or full-stack development capabilities, I'm excited to start!
+                  Whether you&rsquo;re looking for cloud architecture expertise, AI integration solutions, 
+                  or full-stack development capabilities, I&rsquo;m excited to start!
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
                   <Button asChild className="bg-sky-900 hover:bg-sky-800">

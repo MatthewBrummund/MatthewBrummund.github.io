@@ -113,19 +113,19 @@ export default function AboutPage() {
           <div className="prose prose-lg max-w-none text-slate-600 space-y-6">
             <p>
               My path into cloud development began with a fascination for systems that could scale and adapt. 
-              When I started my Computer Systems Engineering degree at Arizona State University's Honors College, 
+              When I started my Computer Systems Engineering degree at Arizona State University&rsquo;s Honors College, 
               I was drawn to the intersection of software, infrastructure, and real-world problem solving.
             </p>
             <p>
               The opportunity to join AWS AI Cloud Innovation Center as an Associate Cloud Developer in 2024 
-              transformed my understanding of what's possible with cloud architecture. Working directly with 
+              transformed my understanding of what&rsquo;s possible with cloud architecture. Working directly with 
               enterprise and government clients like the State of New Jersey, Chandler Police Department, and 
               ASU Enterprise Technology taught me that the best technical solutions are those that eliminate 
               complexity for end users.
             </p>
             <p>
               What excites me most about cloud development is the ability to democratize powerful capabilities. 
-              Whether it's building a conversational AI system that eliminates the need for SQL expertise, or 
+              Whether it&rsquo;s building a conversational AI system that eliminates the need for SQL expertise, or 
               creating multilingual processing systems for hundreds of hours of content, I focus on making 
               advanced technology accessible and practical.
             </p>
@@ -217,7 +217,7 @@ export default function AboutPage() {
           <div className="space-y-6">
             <p className="text-lg text-slate-600 text-center leading-relaxed">
               As I complete my degree in Computer Systems Engineering and continue growing at AWS AI Cloud 
-              Innovation Center, I'm focused on deepening my expertise in several key areas:
+              Innovation Center, I&rsquo;m focused on deepening my expertise in several key areas:
             </p>
             <Card className="border-sky-200">
               <CardContent className="pt-6">
@@ -233,7 +233,7 @@ export default function AboutPage() {
             </Card>
             <div className="text-center pt-6">
               <p className="text-slate-600 mb-6">
-                I'm always interested in discussing new opportunities, technical challenges, 
+                I&rsquo;m always interested in discussing new opportunities, technical challenges, 
                 and innovative approaches to cloud architecture.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
